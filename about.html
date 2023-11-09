@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUCATECH</title>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"   ></script>
+ 
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <img src="images/Página 1.png" alt="" />
+      <div class="navigation">
+        <ul class="active">
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="#">Home</a></li>
+          <li><a class="active" href="about.html">Acerca de Nosotros</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="" />
+      </div>
+    </nav>
+    <!--   HOME-->
+    <section id="about-home">
+      <h2>Acerca de EDUCATECH </h2>
+    </section>
+    <section id="about-container">
+      <div class="about-img">
+        <img src="images/profe5.jpg" alt="">
+      </div>
+        <div class="about-text">
+           <h2>Bienvenidos a EDUCATECH, <br>Mejora tus habilidades con los mejores cursos</h2>
+        <p>
+          En EDUCATECH, creemos que todos los niños y adolescentes tienen el
+          potencial de aprender y crecer.    </p>
+         <div class="about-fe">
+          <img src="images/fe1.png" alt="">
+          <div class="fe-text">
+            <h5>mas Cursos</h5>
+            <p>Tu puedes comenzar y terminar cursos online  dentro de nuestro site</p>
+          </div>
+         </div>
+         <div class="about-fe">
+          <img src="images/fe2.png" alt="">
+          <div class="fe-text">
+            <h5>mas Cursos</h5>
+            <p>horarios flexibles</p>
+         </div> 
+        </div>
+      </div>
+    </section>
+    <!-- features -->
+    <secion id="features">
+      <h1>Personal Calificado</h1>
+      <p>
+        Nuestros profesores estàn altamente cualificados y son apasionados por
+        la educaciòn. Estàn dedicados a ayudar a cada estudiante a alcanzar su
+        maximo potencial.
+      </p>
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fas fa-user-graduate"></i>
+          <h3>Clases Pedagògicas</h3>
+          <p>
+            Uno hace creer, el hombre / mujer, que lleva su firmamento, no será
+            un gran cielo.
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-laptop"></i>
+          <h3>Clases Informaticà</h3>
+          <p>
+            Uno hace creer, el hombre / mujer, que lleva su firmamento, no será
+            un gran cielo.
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-award"></i>
+          <h3>Clases Ingles</h3>
+          <p>
+            Uno hace creer, el hombre / mujer, que lleva su firmamento, no será
+            un gran cielo.
+          </p>
+        </div>
+      </div>
+    </secion>
+     <!-- trusted by -->
+    <section id="trust">
+      <h1>Confiado por</h1>
+      <p>Reponer hombre, tener algo, recolectar luces, ceder, ¿deberás?</p>
+      <div class="trust-img">
+        <img src="images/trust (1).png" alt="">
+        <img src="images/trust (2).png" alt="">
+        <img src="images/trust (3).png" alt="">
+        <img src="images/trust (4).png" alt="">
+        <img src="images/trust (5).png" alt="">
+        <img src="images/trust (6).png" alt="">
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-col">
+        <h3>Desarrollo Web</h3>
+        <li>Manager Reputaciòn</li>
+        <li>Herramientas</li>
+        <li>Manager Website</li>
+       
+      </div>
+      <div class="footer-col">
+        <h3>Materiales</h3>
+        <li>Manager Reputaciòn</li>
+        <li>Herramientas</li>
+        <li>colores</li>
+       
+      </div>
+      <div class="footer-col">
+        <h3>Herramientas</h3>
+        <li>Manager Reputaciòn</li>
+        <li>Moto</li>
+        <li>Manager Website</li>
+       
+      </div>
+      <div class="footer-col">
+        <h3>Guias</h3>
+        <li>Lenguaje Motriz</li>
+        <li>Herramientas</li>
+        <li>Manager Website</li>
+      </div>
+      <div class="footer-col">
+        <h3>Boletin informativo</h3>
+        <p>Puedes confiar, solo enviamos ofertas promocionales</p>
+        <div class="subscribe">
+          <input type="text" name="" placeholder="Tu direccion Email" id="" />
+          <a class="yellow" href="#">SUBSCRIBE</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @2023 All right reserve | Este Website fue creado por
+          SavaTech
+        </p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $("#menu-btn").click(function(){
+         $("nav .navigation ul").addClass("active")
+     });
+     $("#menu-close").click(function(){
+         $("nav .navigation ul").removeClass("active")
+     });
+   </script>
+
+   
+  </body>
+</html>
